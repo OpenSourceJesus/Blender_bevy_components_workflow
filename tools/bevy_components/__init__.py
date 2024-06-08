@@ -146,5 +146,3 @@ def unregister():
     del bpy.types.WindowManager.blueprint_name
     
     bpy.app.handlers.load_post.remove(post_load)
-
-register ()
