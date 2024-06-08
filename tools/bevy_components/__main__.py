@@ -147,3 +147,4 @@ def unregister():
     
     bpy.app.handlers.load_post.remove(post_load)
 
+register ()
